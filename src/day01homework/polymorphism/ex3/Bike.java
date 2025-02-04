@@ -29,4 +29,8 @@ public class Bike extends Wheeler {
             System.out.println(carName + "의 현재 속도는 " + velocity + "입니다.");
         }
     }
+
+    public int getWheelNumber() {
+        return wheelNumber;
+    }
 }

@@ -3,7 +3,7 @@ package day01homework.polymorphism.ex3;
 public class Truck extends Wheeler {
 
     public Truck(String carName, int velocity, int wheelNumber){
-        super.carName = carName;
+        this.carName = carName;
         super.velocity = velocity;
         super.wheelNumber = wheelNumber;
     }
