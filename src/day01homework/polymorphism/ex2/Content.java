@@ -4,7 +4,9 @@ public abstract class Content {
     private String title;
     private int price;
 
-    public Content(){}
+    public Content(){
+
+    }
     public Content(String title){
         this.title = title;
     }
