@@ -6,8 +6,8 @@ public class main {
         Person buyer1 = new buyerPerson("단골손님1",new IceAmericano());
         Person buyer2 = new buyerPerson("단골손님2",new BerryLatte());
 
-        System.out.println(salesMan.whoAmI());
-        System.out.println(buyer1.whoAmI() + ((buyerPerson)buyer1).drinkSomething());
-        System.out.println(buyer2.whoAmI() + ((buyerPerson)buyer2).drinkSomething());
+        System.out.println("카페를" + salesMan.whoAmI() + "이 있다.");
+        System.out.println(buyer1.whoAmI() + "은 " + ((buyerPerson)buyer1).drinkSomething());
+        System.out.println(buyer2.whoAmI() + "은 " + ((buyerPerson)buyer2).drinkSomething());
     }
 }
