@@ -29,5 +29,4 @@ public class Prob1 {
         result = Integer.parseInt(str);
         return result;
     }
-
 }
