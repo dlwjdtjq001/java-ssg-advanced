@@ -65,9 +65,6 @@ public class StudentService {
             rank++;
         }
         return rankNameMap;
-
     }
-
-
 
 }
