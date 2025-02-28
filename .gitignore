@@ -27,3 +27,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### 깃 이그노어 ###
+
+# 특정 파일 무시
+src/day12/users/DatabaseConfig.java
